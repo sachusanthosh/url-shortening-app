@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .text-gradient-v1 {
+    background: linear-gradient(152deg, #144EE3, #EB568E 15%, #144EE3);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .text-gradient-v2 {
+    background: linear-gradient(152deg, #144EE3, #EB568E, #144EE3);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .custom-font {
+    font-family: 'SF Pro Display', sans-serif;
+  }
+}
